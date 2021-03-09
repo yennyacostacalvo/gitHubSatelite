@@ -1,3 +1,10 @@
-En este servicio , se realiza el servicio GET para obtener la lista de los satelites. 
-Todo se almacena usando base de datos por defecto H2 
-No se logra subir el servicio al aws
+Para este intento se realizó lo siguiente :
+1.Se omiten las creaciones de repository el cual dependia de un CRUD es decir de una BD , ya que para el caso no es requerido
+2.Lo que se pretendia realizar era tener separado por clases el mensaje, el satelite y la posición
+la idea era que desde el controlador se llame a la función que tiene el servicio para obtener la información del satelite 
+3. por otro lado la idea era poder realizar el RequestMapping usando el metodo POST desde el controlador para almecenar la información 
+en las listar  creadas para los objetos satelite.
+4. Para este caso el servicio no lo publiqué en AWS como lo tenia planeado.
+5. tener en cuenta los ajustes con etiqueta "Ajuste intento2" o "Cambios realizados para el segundo intento"
+
+Muchas Gracias 
